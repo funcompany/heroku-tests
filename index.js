@@ -1,2 +1,8 @@
-console.log('foo');
-console.log(process.env)
+
+setImmediate(async ()=>{
+
+console.log(process.env);
+process.exit();
+});
+
+
